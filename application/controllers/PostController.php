@@ -62,7 +62,9 @@
         public function listPosts()
         {
             $data['title'] = "List Posts";
-            $data['AllPost'] = $this->Admin->listPosts();
+            $data['AllPost'] = $this->Admin->listPost();
+            $username = $this->session->userdata('username');
+            $data['listUser'] = $this->Admin->User($username);
             return $this->blade->render('admin/blogs/list-posts',$data);
         }
 
@@ -71,6 +73,8 @@
         {
             $data['title'] = "Add Post";
             $data['ListCategories'] = $this->Post->categories();
+            $username = $this->session->userdata('username');
+            $data['listUser'] = $this->Admin->User($username);
             // print_r($data['ListCategories']);
             // die();
             return $this->blade->render('admin/blogs/add-post',$data);

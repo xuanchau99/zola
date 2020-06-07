@@ -75,34 +75,47 @@
                         @endif
                         <!-- start -->
 
-                        @foreach($AllPost as $item)
                         <div class="blog_post">
-                            <h3><a href="blo-blog-view.html">{{$item->title}}</a></h3>
-                            <h5>Written by <b>{{$item->user_name}}</b> on <b>{{date("d/m/Y h:ia",strtotime($item->publish_time))}}</b>.</h5> 
-                            <h5>@if($item->updated_at) Update on <b>{{$item->updated_at}}</b> @endif</h5>
-                            <p class="blog_info">
-                                <i class="fa fa-comment"></i> <a href="#comments">3 comments</a>
-                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-tags"></i> <a href="#">responsive</a> <a href="#">web</a> <a href="#">mobile</a>
-                            </p>
-                            <img style="max-width: 600px;height: 100%; width:100%; margin:30px 0;" src="{{asset($item->image)}}" alt="">
-                            <p class="blog-content">{{$item->summary}}</p>
-                            <a href="blo-blog-view.html" class="btn btn-primary"><span>Read more</span>  &nbsp; <i class="fa fa-angle-double-right"></i></a>
-
-                            <a href="{{site_url('admin/edit-post/'.$item->post_id)}}" class="btn btn-info" style="margin-left: 10px;" title="Edit this post">
-                                <span>Edit</span>
-                                &nbsp;<i class="fa fa-edit"></i>
-                            </a>
-                            <a href="{{site_url('admin/delete-post/'.$item->post_id)}}" class="delete-post btn btn-danger" style="margin-left: 10px;" title="Delete this post">
-                                <span>Delete</span>
-                                &nbsp;<i class=""> x </i>
-                            </a>
-
+                            
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Image</th>
+                                        <th>Title</th>
+                                        <th>Summary</th>
+                                        <th>Author</th>
+                                        <th>Publish Time</th>
+                                        <th>Update At</th>
+                                        <th colspan="2">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach($AllPost as $key => $item)
+                                    <tr>
+                                        <td>{{$key+1}}</td>
+                                        <td><img style="height: 100px; width: 180px;" src="{{asset($item->image)}}" alt=""></td>
+                                        <td>{{$item->title}}</td>
+                                        <td>{{$item->summary}}</td>
+                                        <td>{{$item->user_name}}</td>
+                                        <td><b>{{date("d/m/Y h:ia",strtotime($item->publish_time))}}</b></td>
+                                        <td>{{$item->updated_at}}</td>
+                                        <td>
+                                            <a href="{{site_url('admin/edit-post/'.$item->post_id)}}" class="btn btn-info" style="margin-left: 10px;" title="Edit this post">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="{{site_url('admin/delete-post/'.$item->post_id)}}" class="delete-post btn btn-danger" style="margin-left: 10px;" title="Delete this post">
+                                                <i class=""> x </i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
                         </div>
-                        @endforeach
-
                         <!-- end -->
-
                     </div>
                 </div>
             </div>

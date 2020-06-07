@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class=" ">
+<html>
     <head>
         <!-- 
          * @Package: Ultra Admin - Responsive Theme
@@ -69,158 +69,6 @@
                                 <i class="fa fa-envelope"></i>
                                 <span class="badge badge-primary">7</span>
                             </a>
-                            <ul class="dropdown-menu messages animated fadeIn">
-
-                                <li class="list">
-
-                                    <ul class="dropdown-menu-list list-unstyled ps-scrollbar">
-                                        <li class="unread status-available">
-                                            <a href="javascript:;">
-                                                <div class="user-img">
-                                                    <img src="{{asset('images/avatar.jpg')}}" alt="user-image" class="img-circle img-inline">
-                                                </div>
-                                                <div>
-                                                    <span class="name">
-                                                        <strong>Clarine Vassar</strong>
-                                                        <span class="time small">- 15 mins ago</span>
-                                                        <span class="profile-status available pull-right"></span>
-                                                    </span>
-                                                    <span class="desc small">
-                                                        Sometimes it takes a lifetime to win a battle.
-                                                    </span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class=" status-away">
-                                            <a href="javascript:;">
-                                                <div class="user-img">
-                                                    <img src="data/profile/avatar-2.png" alt="user-image" class="img-circle img-inline">
-                                                </div>
-                                                <div>
-                                                    <span class="name">
-                                                        <strong>Brooks Latshaw</strong>
-                                                        <span class="time small">- 45 mins ago</span>
-                                                        <span class="profile-status away pull-right"></span>
-                                                    </span>
-                                                    <span class="desc small">
-                                                        Sometimes it takes a lifetime to win a battle.
-                                                    </span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class=" status-busy">
-                                            <a href="javascript:;">
-                                                <div class="user-img">
-                                                    <img src="data/profile/avatar-3.png" alt="user-image" class="img-circle img-inline">
-                                                </div>
-                                                <div>
-                                                    <span class="name">
-                                                        <strong>Clementina Brodeur</strong>
-                                                        <span class="time small">- 1 hour ago</span>
-                                                        <span class="profile-status busy pull-right"></span>
-                                                    </span>
-                                                    <span class="desc small">
-                                                        Sometimes it takes a lifetime to win a battle.
-                                                    </span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class=" status-offline">
-                                            <a href="javascript:;">
-                                                <div class="user-img">
-                                                    <img src="data/profile/avatar-4.png" alt="user-image" class="img-circle img-inline">
-                                                </div>
-                                                <div>
-                                                    <span class="name">
-                                                        <strong>Carri Busey</strong>
-                                                        <span class="time small">- 5 hours ago</span>
-                                                        <span class="profile-status offline pull-right"></span>
-                                                    </span>
-                                                    <span class="desc small">
-                                                        Sometimes it takes a lifetime to win a battle.
-                                                    </span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class=" status-offline">
-                                            <a href="javascript:;">
-                                                <div class="user-img">
-                                                    <img src="data/profile/avatar-5.png" alt="user-image" class="img-circle img-inline">
-                                                </div>
-                                                <div>
-                                                    <span class="name">
-                                                        <strong>Melissa Dock</strong>
-                                                        <span class="time small">- Yesterday</span>
-                                                        <span class="profile-status offline pull-right"></span>
-                                                    </span>
-                                                    <span class="desc small">
-                                                        Sometimes it takes a lifetime to win a battle.
-                                                    </span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class=" status-available">
-                                            <a href="javascript:;">
-                                                <div class="user-img">
-                                                    <img src="{{asset('images/avatar.jpg')}}" alt="user-image" class="img-circle img-inline">
-                                                </div>
-                                                <div>
-                                                    <span class="name">
-                                                        <strong>Verdell Rea</strong>
-                                                        <span class="time small">- 14th Mar</span>
-                                                        <span class="profile-status available pull-right"></span>
-                                                    </span>
-                                                    <span class="desc small">
-                                                        Sometimes it takes a lifetime to win a battle.
-                                                    </span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class=" status-busy">
-                                            <a href="javascript:;">
-                                                <div class="user-img">
-                                                    <img src="data/profile/avatar-2.png" alt="user-image" class="img-circle img-inline">
-                                                </div>
-                                                <div>
-                                                    <span class="name">
-                                                        <strong>Linette Lheureux</strong>
-                                                        <span class="time small">- 16th Mar</span>
-                                                        <span class="profile-status busy pull-right"></span>
-                                                    </span>
-                                                    <span class="desc small">
-                                                        Sometimes it takes a lifetime to win a battle.
-                                                    </span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class=" status-away">
-                                            <a href="javascript:;">
-                                                <div class="user-img">
-                                                    <img src="data/profile/avatar-3.png" alt="user-image" class="img-circle img-inline">
-                                                </div>
-                                                <div>
-                                                    <span class="name">
-                                                        <strong>Araceli Boatright</strong>
-                                                        <span class="time small">- 16th Mar</span>
-                                                        <span class="profile-status away pull-right"></span>
-                                                    </span>
-                                                    <span class="desc small">
-                                                        Sometimes it takes a lifetime to win a battle.
-                                                    </span>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                    </ul>
-
-                                </li>
-
-                                <li class="external">
-                                    <a href="javascript:;">
-                                        <span>Read All Messages</span>
-                                    </a>
-                                </li>
-                            </ul>
 
                         </li>
                         <li class="notify-toggle-wrapper">
@@ -358,8 +206,8 @@
                     <ul class="info-menu right-links list-inline list-unstyled">
                         <li class="profile">
                             <a href="#" data-toggle="dropdown" class="toggle">
-                                <img src="{{asset('images/avatar.jpg')}}" alt="user-image" class="img-circle img-inline">
-                                <span>Mark Yurey <i class="fa fa-angle-down"></i></span>
+                                <img src="{{asset($listUser['avatar'])}}" alt="{{$listUser['name']}}" class="img-circle img-inline">
+                                <span> {{$listUser['name']}} <i class="fa fa-angle-down"></i></span>
                             </a>
                             <ul class="dropdown-menu profile animated fadeIn">
                                 <li>
@@ -413,14 +261,14 @@
 
                         <div class="profile-image col-md-4 col-sm-4 col-xs-4">
                             <a href="ui-profile.html">
-                                <img src="{{asset('images/avatar.jpg')}}" class="img-responsive img-circle">
+                                <img src="{{asset($listUser['avatar'])}}" class="img-responsive img-circle">
                             </a>
                         </div>
 
                         <div class="profile-details col-md-8 col-sm-8 col-xs-8">
                             <h3>
-                            <a href="ui-profile.html">
-                                <?php echo $this->session->userdata('username');?>           
+                            <a href="">
+                                {{$listUser['name']}}
                             </a>
 
                                 <!-- Available statuses: online, idle, busy, away and offline -->
@@ -445,7 +293,7 @@
                                 <span class="title">Dashboard</span>
                             </a>
                         </li>
-                        <li class=""> 
+                        <li class="Posts"> 
                             <a href="javascript:;">
                                 <i class="fa fa-edit"></i>
                                 <span class="title">Posts</span>
@@ -460,28 +308,13 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
+                        <li class="Search"> 
                             <a href="blo-search.html">
                                 <i class="fa fa-search"></i>
                                 <span class="title">Search</span>
                             </a>
                         </li>
-                        <li class=""> 
-                            <a href="javascript:;">
-                                <i class="fa fa-upload"></i>
-                                <span class="title">Media</span>
-                                <span class="arrow "></span>
-                            </a>
-                            <ul class="sub-menu" >
-                                <li>
-                                    <a class="" href="blo-media.html" >All Media</a>
-                                </li>
-                                <li>
-                                    <a class="" href="blo-upload.html" >Upload</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class=""> 
+                        <li class="Categories"> 
                             <a href="javascript:;">
                                 <i class="fa fa-sitemap"></i>
                                 <span class="title">Categories</span>
@@ -499,28 +332,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
-                            <a href="javascript:;">
-                                <i class="fa fa-files-o"></i>
-                                <span class="title">Pages</span>
-                                <span class="arrow "></span>
-                            </a>
-                            <ul class="sub-menu" >
-                                <li>
-                                    <a class="" href="blo-pages.html" >All Pages</a>
-                                </li>
-                                <li>
-                                    <a class="" href="blo-page-add.html" >Add Page</a>
-                                </li>
-                                <li>
-                                    <a class="" href="blo-page-edit.html" >Edit Page</a>
-                                </li>
-                                <li>
-                                    <a class="" href="blo-page-view.html" >View Page</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class=""> 
+                        <li class="Users"> 
                             <a href="javascript:;">
                                 <i class="fa fa-user"></i>
                                 <span class="title">Users</span>
@@ -538,93 +350,6 @@
                                 </li>
                                 <li>
                                     <a class="" href="blo-user-profile.html" >User Profile</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class=""> 
-                            <a href="javascript:;">
-                                <i class="fa fa-envelope"></i>
-                                <span class="title">Mailbox</span>
-                                <span class="arrow "></span><span class="label label-orange">4</span>
-                            </a>
-                            <ul class="sub-menu" >
-                                <li>
-                                    <a class="" href="blo-mail-inbox.html" >Inbox</a>
-                                </li>
-                                <li>
-                                    <a class="" href="blo-mail-compose.html" >Compose</a>
-                                </li>
-                                <li>
-                                    <a class="" href="blo-mail-view.html" >View</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class=""> 
-                            <a href="javascript:;">
-                                <i class="fa fa-bar-chart"></i>
-                                <span class="title">Reports</span>
-                                <span class="arrow "></span>
-                            </a>
-                            <ul class="sub-menu" >
-                                <li>
-                                    <a class="" href="blo-report-site.html" >Site</a>
-                                </li>
-                                <li>
-                                    <a class="" href="blo-report-visitors.html" >Visitors</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class=""> 
-                            <a href="javascript:;">
-                                <i class="fa fa-tags"></i>
-                                <span class="title">Tags</span>
-                                <span class="arrow "></span>
-                            </a>
-                            <ul class="sub-menu" >
-                                <li>
-                                    <a class="" href="blo-tags.html" >All Tags</a>
-                                </li>
-                                <li>
-                                    <a class="" href="blo-tag-add.html" >Add Tag</a>
-                                </li>
-                                <li>
-                                    <a class="" href="blo-tag-edit.html" >Edit Tag</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="open"> 
-                            <a href="javascript:;">
-                                <i class="fa fa-suitcase"></i>
-                                <span class="title">Multi Purpose</span>
-                                <span class="arrow open"></span><span class="label label-orange">NEW</span>
-                            </a>
-                            <ul class="sub-menu" style='display:block;'>
-                                <li>
-                                    <a class="" href="general.html"  target = '_blank' >General Admin</a>
-                                </li>
-                                <li>
-                                    <a class="" href="hospital.html"  target = '_blank' >Hospital Admin</a>
-                                </li>
-                                <li>
-                                    <a class="" href="music.html"  target = '_blank' >Music Admin</a>
-                                </li>
-                                <li>
-                                    <a class="" href="crm.html"  target = '_blank' >CRM Admin</a>
-                                </li>
-                                <li>
-                                    <a class="" href="socialmedia.html"  target = '_blank' >Social Media Admin</a>
-                                </li>
-                                <li>
-                                    <a class="" href="freelancing.html"  target = '_blank' >Freelancing Admin</a>
-                                </li>
-                                <li>
-                                    <a class="" href="university.html"  target = '_blank' >University Admin</a>
-                                </li>
-                                <li>
-                                    <a class="" href="ecommerce.html"  target = '_blank' >Ecommerce Admin</a>
-                                </li>
-                                <li>
-                                    <a class="active" href="blog.html"  target = '_blank' >Blog Admin</a>
                                 </li>
                             </ul>
                         </li>
@@ -677,194 +402,6 @@
                 
             </section>
             <!-- END CONTENT -->
-            <div class="page-chatapi hideit">
-
-                <div class="search-bar">
-                    <input type="text" placeholder="Search" class="form-control">
-                </div>
-
-                <div class="chat-wrapper">
-                    <h4 class="group-head">Groups</h4>
-                    <ul class="group-list list-unstyled">
-                        <li class="group-row">
-                            <div class="group-status available">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                            <div class="group-info">
-                                <h4><a href="#">Work</a></h4>
-                            </div>
-                        </li>
-                        <li class="group-row">
-                            <div class="group-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                            <div class="group-info">
-                                <h4><a href="#">Friends</a></h4>
-                            </div>
-                        </li>
-
-                    </ul>
-
-
-                    <h4 class="group-head">Favourites</h4>
-                    <ul class="contact-list">
-
-                        <li class="user-row" id='chat_user_1' data-user-id='1'>
-                            <div class="user-img">
-                                <a href="#"><img src="{{asset('images/avatar.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Clarine Vassar</a></h4>
-                                <span class="status available" data-status="available"> Available</span>
-                            </div>
-                            <div class="user-status available">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_2' data-user-id='2'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Brooks Latshaw</a></h4>
-                                <span class="status away" data-status="away"> Away</span>
-                            </div>
-                            <div class="user-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_3' data-user-id='3'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-3.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Clementina Brodeur</a></h4>
-                                <span class="status busy" data-status="busy"> Busy</span>
-                            </div>
-                            <div class="user-status busy">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-
-                    </ul>
-
-
-                    <h4 class="group-head">More Contacts</h4>
-                    <ul class="contact-list">
-
-                        <li class="user-row" id='chat_user_4' data-user-id='4'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-4.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Carri Busey</a></h4>
-                                <span class="status offline" data-status="offline"> Offline</span>
-                            </div>
-                            <div class="user-status offline">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_5' data-user-id='5'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-5.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Melissa Dock</a></h4>
-                                <span class="status offline" data-status="offline"> Offline</span>
-                            </div>
-                            <div class="user-status offline">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_6' data-user-id='6'>
-                            <div class="user-img">
-                                <a href="#"><img src="{{asset('images/avatar.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Verdell Rea</a></h4>
-                                <span class="status available" data-status="available"> Available</span>
-                            </div>
-                            <div class="user-status available">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_7' data-user-id='7'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Linette Lheureux</a></h4>
-                                <span class="status busy" data-status="busy"> Busy</span>
-                            </div>
-                            <div class="user-status busy">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_8' data-user-id='8'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-3.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Araceli Boatright</a></h4>
-                                <span class="status away" data-status="away"> Away</span>
-                            </div>
-                            <div class="user-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_9' data-user-id='9'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-4.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Clay Peskin</a></h4>
-                                <span class="status busy" data-status="busy"> Busy</span>
-                            </div>
-                            <div class="user-status busy">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_10' data-user-id='10'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-5.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Loni Tindall</a></h4>
-                                <span class="status away" data-status="away"> Away</span>
-                            </div>
-                            <div class="user-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_11' data-user-id='11'>
-                            <div class="user-img">
-                                <a href="#"><img src="{{asset('images/avatar.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Tanisha Kimbro</a></h4>
-                                <span class="status idle" data-status="idle"> Idle</span>
-                            </div>
-                            <div class="user-status idle">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_12' data-user-id='12'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Jovita Tisdale</a></h4>
-                                <span class="status idle" data-status="idle"> Idle</span>
-                            </div>
-                            <div class="user-status idle">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-
-            </div>
 
 
             <div class="chatapi-windows ">

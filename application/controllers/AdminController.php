@@ -9,8 +9,8 @@
 
         public function formLogin()
         {  
-               $data['title'] = 'Login';
-               $this->blade->render('admin/blogs/login',$data);
+           $data['title'] = 'Login';
+           $this->blade->render('admin/blogs/login',$data);
         }  
 
         public function login()
@@ -26,7 +26,11 @@
                 $this->load->model('admin');
                 if($this->admin->login($username, $password))
                 {
-                    $session_data = array('username' => $username);
+                    $name = $this->Admin->listUser($username);
+                    $session_data = array(
+                                        'username' => $username,
+                                        'name' => $name
+                                    );
                     $this->session->set_userdata($session_data);
                     redirect(site_url('admin'));
                 }
@@ -51,7 +55,11 @@
 
         public function view()
         {
+            $username = $this->session->userdata('username');
+            $data['listUser'] = $this->Admin->User($username);
             $data['title'] = "Admin";
+            // print_r($data);
+            // die();
             return $this->blade->render('admin/blogs/home-admin',$data);
         }
     }
